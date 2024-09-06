@@ -19,8 +19,8 @@ window.addEventListener('resize', (eve)=>{
 form.addEventListener('submit', (event) => {
     event.preventDefault();
     k = Number(document.getElementById('key').value);
-    if (k < 1) {
-        window.alert('Enter a valid number');
+    if (k < 3) {
+        window.alert('Enter a number>=3');
         sad();
         }
     else {
